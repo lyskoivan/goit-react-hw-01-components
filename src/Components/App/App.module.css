@@ -1,0 +1,11 @@
+@value font-stack from '../../variables.module.css';
+
+body {
+  background-color: #e7ecf2;
+}
+.App {
+  font-family: font-stack;
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 430px;
+}
