@@ -1,4 +1,8 @@
+@value font-stack from '../../variables.module.css';
 .statistics {
+  margin: 0 auto;
+  max-width: 430px;
+  font-family: font-stack;
   background-color: #fff;
   text-align: center;
   padding-top: 20px;

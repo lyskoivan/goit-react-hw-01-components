@@ -1,4 +1,9 @@
+@value font-stack from '../../variables.module.css';
+
 .friend_list {
+  font-family: font-stack;
+  margin: 0 auto;
+  max-width: 430px;
   display: flex;
   flex-direction: column;
   list-style-type: none;

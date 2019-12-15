@@ -1,4 +1,12 @@
+@value font-stack from '../../variables.module.css';
+body {
+  background-color: #e7ecf2;
+}
 .profile {
+  margin: 0 auto;
+  max-width: 430px;
+  margin-top: 40px;
+  font-family: font-stack;
   padding-top: 20px;
   text-align: center;
   background-color: #fff;
