@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 
 const Profile = ({ user }) => (
-  <div className={[styles.profile]}>
+  <div className={styles.profile}>
     <div className="description">
       <img src={user.avatar} alt="user avatar" className={styles.avatar} />
       <p className={styles.name}>{user.name}</p>
